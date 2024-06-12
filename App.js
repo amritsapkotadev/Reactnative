@@ -9,9 +9,6 @@ export default function App() {
   function goalInputHandler(enteredText) {
     setEnteredGoalText(enteredText);
   }
-
-  
-
   function addGoalHandler() {
     setCourseGoals((currentCourseGoals) => [
       ...currentCourseGoals, 
